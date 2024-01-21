@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="r">
+    <div class="col-sm-10 offset-sm-1 p-5 text-center">
+        <h3>{{ object.text }}</h3>
+        <img src="{{ object.image.url }}" class="img-fluid">
+    </div>
+</div>
+{% endblock %}
